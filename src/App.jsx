@@ -37,7 +37,7 @@ function App() {
     setTimeLeft(170); // ⏳ approx 2m 50s
 
     try {
-      const res = await fetch("http://localhost:8000/generate", {
+      const res = await fetch("https://realvisxl-ai-image-generator.onrender.com/generate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
